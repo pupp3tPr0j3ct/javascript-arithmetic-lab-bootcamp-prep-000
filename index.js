@@ -15,10 +15,10 @@ function divide(a, b){
   return div;
 }
 function inc(n){
-  var increase = n++;
-  return increase;
+  n++;
+  return n;
 }
 function dec(n){
-  var decrease = n--;
-  return decrease;
+  n--;
+  return n;
 }
