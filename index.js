@@ -1,4 +1,4 @@
 function add(a, b){
-  a += b;
-  return;
+  var addition = a += b;
+  return addition;
 }
